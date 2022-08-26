@@ -49,7 +49,7 @@ Output:
 
 ## Architecture 
 
-!(/src/images/arch,png?raw=true)
+![alt text](https://raw.githubusercontent.com/Narayanan5-code/SIH_2022/main/src/images/system-arch.png?raw=true)
 
 ## Modules
 
