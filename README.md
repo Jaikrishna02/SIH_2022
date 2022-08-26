@@ -1,11 +1,11 @@
 # Consensus of hourly visibility forecast for airports using NWP model and observations
 
 
-<!-- ![Current Version](https://img.shields.io/badge/version-v0.1-blue)
-![GitHub contributors](https://img.shields.io/github/contributors/madhur-taneja/README-Template)
-![GitHub stars](https://img.shields.io/github/stars/madhur-taneja/README-Template?style=social)
-![GitHub forks](https://img.shields.io/github/forks/madhur-taneja/README-Template?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/madhurtaneja2?style=social) -->
+![Current Version](https://img.shields.io/badge/version-v0.1-blue)
+![GitHub contributors](https://img.shields.io/github/contributors/Narayanan5-code/SIH_2022)
+![GitHub stars](https://img.shields.io/github/stars/Narayanan5-code/SIH_2022?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Narayanan5-code/SIH_2022?style=social)
+
 
 Development of visibility forecast with elastic lead times using NWP model with DeepAR from past observation for the next 12/24 hours using DeepAR inside sagemaker studio and visualizing using AWS Quicksite with API service for clients for selected airports in the country.
 This project aims to forecast the Visibility in the airports (or any parameter) against parameters like wind speed,wind direction,Humidity,Temperature,Dew point temperature.We have used Amazon Sagemaker as the environment for the project which has paved a way to make  our cloud based.
@@ -55,18 +55,22 @@ The project is also hosted [here](https://ap-south-1.quicksight.aws.amazon.com/s
 
 ## Modules
 
-### Models 
+### 1. Models 
 
-#### AR
+#### 1.A. AR
 This project used AR model, which is Autoregressive model, is Autoregressive (AR) models are a subset of time series models, which can be used to predict future values based on previous observations. 
-AR models use regression techniques and rely on autocorrelation in order to make accurate predictions.
+AR models use regression techniques and rely on autocorrelation in order to make accurate predictions.
 Autoregressive model works best with data with short lead times
 
 The performance of progressive predictions of timeseries predictions has been compared against vaerious models like cnnn, rnn ,lstm etc and has shown better accuracy.
-#### Sagemaker 
+#### 1.B. Sagemaker 
 It provides an integrated Jupyter authoring notebook instance for easy access to your data sources for exploration and analysis.It also provides common machine learning algorithms that are optimized to run efficiently against extremely large data in a distributed environment. 
-###### SageMaker Studio
+#### 1.C. SageMaker Studio
 An integrated machine learning environment where you can build, train, deploy, and analyze your models all in the same application.
+
+### API
+
+### User Interface
 
 ### Installation
 
