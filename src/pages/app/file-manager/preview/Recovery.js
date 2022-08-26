@@ -279,7 +279,7 @@ const Recovery = ({
                                   </div>
                                   <ul className="breadcrumb breadcrumb-alt breadcrumb-xs breadcrumb-arrow">
                                     <li className="breadcrumb-item">Project</li>
-                                    <li className="breadcrumb-item">Dashlite</li>
+                                    <li className="breadcrumb-item">DOTS</li>
                                     <li className="breadcrumb-item">apps</li>
                                   </ul>
                                 </div>
@@ -297,7 +297,7 @@ const Recovery = ({
                                   </div>
                                   <ul className="breadcrumb breadcrumb-alt breadcrumb-xs breadcrumb-arrow">
                                     <li className="breadcrumb-item">Project</li>
-                                    <li className="breadcrumb-item">Dashlite</li>
+                                    <li className="breadcrumb-item">DOTS</li>
                                     <li className="breadcrumb-item">apps</li>
                                   </ul>
                                 </div>

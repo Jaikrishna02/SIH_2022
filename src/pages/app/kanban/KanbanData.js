@@ -3,11 +3,11 @@ export const columnData = {
     "task-1": {
       id: "task-1",
       title: "Implement Design into template",
-      desc: "Start implementing new design in coding @dashlite",
+      desc: "Start implementing new design in coding @DOTS",
       meta: {
         users: [{ value: "Sara Dervashi", label: "Sara Dervashi", theme: "light" }],
         tags: [
-          { value: "Dashlite", label: "Dashlite", theme: "info" },
+          { value: "DOTS", label: "DOTS", theme: "info" },
           { value: "HTML", label: "HTML", theme: "danger" },
         ],
         date: "15 Dec 2020",
@@ -17,12 +17,12 @@ export const columnData = {
     },
     "task-2": {
       id: "task-2",
-      title: "Dashlite React Version",
-      desc: "Implement new UI design in react version @dashlite template as soon as possible.",
+      title: "DOTS React Version",
+      desc: "Implement new UI design in react version @DOTS template as soon as possible.",
       meta: {
         users: [{ value: "Cooper Jones", label: "Cooper Jones", theme: "blue" }],
         tags: [
-          { value: "Dashlite", label: "Dashlite", theme: "info" },
+          { value: "DOTS", label: "DOTS", theme: "info" },
           { value: "React", label: "React", theme: "dark" },
         ],
         date: "15 Dec 2020",
@@ -33,13 +33,13 @@ export const columnData = {
     },
     "task-3": {
       id: "task-3",
-      title: "Dashlite Design Kit Update",
-      desc: "Update the new UI design for @dashlite template with based on feedback.",
+      title: "DOTS Design Kit Update",
+      desc: "Update the new UI design for @DOTS template with based on feedback.",
       board: "In Progress",
       meta: {
         users: [{ value: "Ashraf Raneem", label: "Ashraf Raneem", theme: "primary" }],
         tags: [
-          { value: "Dashlite", label: "Dashlite", theme: "info" },
+          { value: "DOTS", label: "DOTS", theme: "info" },
           { value: "UI Design", label: "UI Design", theme: "warning" },
         ],
         due: "2",
@@ -191,8 +191,8 @@ export const columnData = {
 
 export const tagSet = [
   {
-    value: "Dashlite",
-    label: "Dashlite",
+    value: "DOTS",
+    label: "DOTS",
     theme: "info",
   },
   {
