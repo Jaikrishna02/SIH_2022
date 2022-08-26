@@ -143,7 +143,27 @@ For the available versions, see the [tags on this repository][tags]
 
 ## Authors
 
-#### Madhur Taneja
+#### Lakshmi Narayanan R
+* [GitHub](https://github.com/Narayanan5-code)
+* [LinkedIn]
+
+#### Magesh Sundar G
+* [GitHub]()
+* [LinkedIn]
+
+#### Jaikrishna B
+* [GitHub]
+* [LinkedIn]
+
+#### Mukund R S
+* [GitHub]
+* [LinkedIn]
+
+#### Shri Harri Priya R
+* [GitHub]
+* [LinkedIn]
+
+#### Manthra K S
 * [GitHub]
 * [LinkedIn]
 
@@ -152,6 +172,7 @@ You can also see the complete [list of contributors][contributors] who participa
 ## License
 
 `Project Title` is open source software [licensed as MIT][license].
+
 
 ## Acknowledgments
 
