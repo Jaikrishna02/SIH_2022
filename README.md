@@ -176,23 +176,7 @@ You can also see the complete [list of contributors][contributors] who participa
 
 ## Acknowledgments
 
-This section can also be called as `Resources` or `References`
-
-* Code Honor if someone's work was referred to
-* Tutorials followed
-* Articles that helped
-* Inspiration
-* etc
-
-[//]: # (HyperLinks)
-
-[GitHub Repository]: https://github.com/madhur-taneja/README-Template
-[GitHub Pages]: https://madhur-taneja.github.io/README-Template
-[CONTRIBUTING.md]: https://github.com/madhur-taneja/README-template/blob/master/CONTRIBUTING.md
-[tags]: https://github.com/madhur-taneja/README-template/tags
-
-[GitHub]: https://github.com/madhur-taneja
-[LinkedIn]: https://www.linkedin.com/in/madhur-taneja/
-
-[contributors]: https://github.com/madhur-taneja/README-template/contributors
-[license]: https://github.com/madhur-taneja/README-template/blob/master/LICENSE.md
+* [AWS Sagemaker](https://github.com/aws/amazon-sagemaker-examples)
+* [AWS QuickSight](https://docs.aws.amazon.com/quicksight/index.html)
+* [DeepAR](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)
+* [Tensorflow](https://www.tensorflow.org/learn)
