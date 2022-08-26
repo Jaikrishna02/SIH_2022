@@ -48,12 +48,9 @@ const AnalyticsHomePage = () => {
         <BlockHead size="sm">
           <div className="nk-block-between">
             <BlockHeadContent>
-              <BlockTitle page tag="h3">
+              <BlockTitle page tag="h2">
                 Website Analytics
               </BlockTitle>
-              <BlockDes className="text-soft">
-                <p>Welcome to Analytics Dashboard.</p>
-              </BlockDes>
             </BlockHeadContent>
             <BlockHeadContent>
               <div className="toggle-wrap nk-block-tools-toggle">
@@ -134,26 +131,10 @@ const AnalyticsHomePage = () => {
         <Block>
           <Row className="g-gs">
             <Col lg="7" xxl="6">
-              <PreviewAltCard className="h-100">
-                <AudienceOverview />
-              </PreviewAltCard>
-            </Col>
-            <Col md="6" lg="5" xxl="6">
-              <PreviewAltCard className="h-100">
-                <ActiveUser />
-              </PreviewAltCard>
-            </Col>
-            <Col lg="7" xxl="6">
               <Card className="card-bordered h-100">
                 <TrafficChannel />
               </Card>
             </Col>
-            <Col md="6" xxl="6">
-              <PreviewAltCard className="h-100">
-                <TrafficDougnut />
-              </PreviewAltCard>
-            </Col>
-
           </Row>
         </Block>
       </Content>

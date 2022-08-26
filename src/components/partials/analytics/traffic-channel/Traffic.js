@@ -47,9 +47,6 @@ const TrafficChannel = () => {
           <DataTableRow className="nk-tb-change">
             <span>Change</span>
           </DataTableRow>
-          <DataTableRow className="nk-tb-trend tb-col-sm text-right">
-            <span>Trend</span>
-          </DataTableRow>
         </DataTableHead>
         {trafficData.map((item) => {
           return (
@@ -74,11 +71,6 @@ const TrafficChannel = () => {
                     <Icon name={`arrow-long-${item.changeDifference}`}></Icon>
                   </span>
                 </span>
-              </DataTableRow>
-              <DataTableRow className="nk-tb-trend text-right">
-                <div className="traffic-channel-ck ml-auto">
-                  <WPCharts data={item.chart}></WPCharts>
-                </div>
               </DataTableRow>
             </DataTableItem>
           );
