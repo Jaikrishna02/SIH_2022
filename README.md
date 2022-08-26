@@ -8,10 +8,24 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/madhurtaneja2?style=social) -->
 
 Development of visibility forecast with elastic lead times using NWP model with DeepAR from past observation for the next 12/24 hours using DeepAR inside sagemaker studio and visualizing using AWS Quicksite with API service for clients for selected airports in the country.
+This project aims to forecast the Visibility in the airports (or any parameter) against parameters like wind speed,wind direction,Humidity,Temperature,Dew point temperature.We have used Amazon Sagemaker as the environment for the project which has paved a way to make  our cloud based.
 
-Open and view the Project using the `.zip` file provided or at my [GitHub Repository](https://github.com/Narayanan5-code/SIH_2022)
+# Our Key Features 
+* Cloud Based 
+* Elastic lead times prection from 5 mins to one week 
+* Decentralized system
+* Multivarient Support 
+* Multi Step predictions 
+* Platform independant 
+* Desktop and mobile support
+* API Services 
+* No code / Low code , orchestrated admin pannel 
+* IOT support with API
+* Simple Visuvalizations for the users 
+* Fast predictions with AWS elastic services
+* Real time data feed can be predicted dynamically 
+* Extensive Database support for uploading real time data
 
-The project is also hosted [here](https://ap-south-1.quicksight.aws.amazon.com/sn/accounts/757776451407/dashboards/a647f449-e6c2-4fcc-b7cb-ad6f2e968665?directory_alias=airport-visibility-prediction )
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -29,27 +43,15 @@ The project is also hosted [here](https://ap-south-1.quicksight.aws.amazon.com/s
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+- 
+Open and view the Project using the `.zip` file provided or at my [GitHub Repository](https://github.com/Narayanan5-code/SIH_2022)
 
-## Getting Started
-This project aims to forecast the Visibility in the airports (or any parameter) against parameters like wind speed,wind direction,Humidity,Temperature,Dew point temperature.
-We have used Amazon Sagemaker as the environment for the project which has paved a way to make  our cloud based.
+The project is also hosted [here](https://ap-south-1.quicksight.aws.amazon.com/sn/accounts/757776451407/dashboards/a647f449-e6c2-4fcc-b7cb-ad6f2e968665?directory_alias=airport-visibility-prediction )
 
- 
-
-We have develo
-
-Input:
-1. Model simulated Temperature, Wind Speed, Wind Direction, Humidity
-2. Observed visibility data (Met report) from selected Airport 
-
-Output:
-1. Hourly visibility product for 12/24 hours(or for any lead time)
-2. Format: Visibility in meters 
-3. Platform: This project is platform independent.
 
 ## Architecture 
 
-![alt text](https://raw.githubusercontent.com/Narayanan5-code/SIH_2022/main/src/images/system-arch.png?raw=true)
+!(/src/images/arch,png?raw=true)
 
 ## Modules
 
@@ -83,6 +85,14 @@ This section is completely optional. For big projects, the developement strategi
 2. You can refer the README in future as a quick refresher before an interview or for an old project to check if it can help you in your currect work
 
 ### Part 1: Heading
+Input:
+1. Model simulated Temperature, Wind Speed, Wind Direction, Humidity
+2. Observed visibility data (Met report) from selected Airport 
+
+Output:
+1. Hourly visibility product for 12/24 hours(or for any lead time)
+2. Format: Visibility in meters 
+3. Platform: This project is platform independent.
 
 #### Step 1: Subheading
 
