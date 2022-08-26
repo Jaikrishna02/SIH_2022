@@ -127,7 +127,7 @@ const InvoiceDetails = ({ match }) => {
                       <tbody>
                         <tr>
                           <td>24108054</td>
-                          <td>Dashlite - Conceptual App Dashboard - Regular License</td>
+                          <td>dots - Conceptual App Dashboard - Regular License</td>
                           <td>${user.invoiceItem1}</td>
                           <td>1</td>
                           <td>${user.invoiceItem1}</td>

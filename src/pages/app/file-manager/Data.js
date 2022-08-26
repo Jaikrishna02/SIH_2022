@@ -454,7 +454,7 @@ export const folderList = [
   {
     id: 9,
     meta: {
-      name: "Dashlite...1.2.zip",
+      name: "Heyy ...1.2.zip",
       checked: false,
       svg: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
