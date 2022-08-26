@@ -8,6 +8,7 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/madhurtaneja2?style=social) -->
 
 Development of visibility forecast with elastic lead times using NWP model with DeepAR from past observation for the next 12/24 hours using DeepAR inside sagemaker studio and visualizing using AWS Quicksite with API service for clients for selected airports in the country.
+
 This project aims to forecast the Visibility in the airports (or any parameter) against parameters like wind speed,wind direction,Humidity,Temperature,Dew point temperature.We have used Amazon Sagemaker as the environment for the project which has paved a way to make  our cloud based.
 
 # Our Key Features 
@@ -28,7 +29,7 @@ This project aims to forecast the Visibility in the airports (or any parameter) 
 
 
 ## Table of Contents
-- [Getting Started](#getting-started)
+- [Architecture](#Architecture)
 	- [Dataset](#tools-required)
 	- [Installation](#installation)
 - [Development](#development)
