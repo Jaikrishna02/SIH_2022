@@ -45,98 +45,13 @@ const AnalyticsHomePage = () => {
     <React.Fragment>
       <Head title="Analytics Dashboard" />
       <Content>
-        <BlockHead size="sm">
-          <div className="nk-block-between">
-            <BlockHeadContent>
-              <BlockTitle page tag="h2">
-                Website Analytics
-              </BlockTitle>
-            </BlockHeadContent>
-            <BlockHeadContent>
-              <div className="toggle-wrap nk-block-tools-toggle">
-                <Button
-                  className={`btn-icon btn-trigger toggle-expand mr-n1 ${sm ? "active" : ""}`}
-                  onClick={() => updateSm(!sm)}
-                >
-                  <Icon name="more-v"></Icon>
-                </Button>
-                <div className="toggle-expand-content" style={{ display: sm ? "block" : "none" }}>
-                  <form>
-                  <ul className="nk-block-tools g-3">
-                    <li>
-                      <UncontrolledDropdown>
-                        <DropdownToggle tag="a" className="dropdown-toggle btn btn-white btn-dim btn-outline-light">
-                          <Icon className="d-none d-sm-inline" name="calender-date"></Icon>
-                          <span>
-                            <span className="d-none d-md-inline">Select</span> Airport
-                          </span>
-                          <Icon className="dd-indc" name="chevron-right"></Icon>
-                        </DropdownToggle>
-                        <DatePicker
-                    selected={new Date()}
-                    className="form-control"
-                    onChange={(date) => DateUpdate.submitForm.setFormData({ ...formData, date: getDateStructured(date) })}
-                    maxDate={new Date()}
-                  />
-                        <DropdownMenu>
-                          <ul className="link-list-opt no-bdr">
-                            <li>
-                              <DropdownItem
-                                href="#dropdownitem"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
-                              >
-                                Delhi
-                              </DropdownItem>
-                            </li>
-                            <li>
-                              <DropdownItem
-                                href="#dropdownitem"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
-                              >
-                                Chennai
-                              </DropdownItem>
-                            </li>
-                            <li>
-                              <DropdownItem
-                                href="#dropdownitem"
-                                onClick={(ev) => {
-                                  ev.preventDefault();
-                                }}
-                              >
-                                Mumbai
-                              </DropdownItem>
-                            </li>
-                          </ul>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </li>
-                    <li className="nk-block-tools-opt">
-                      <Button color="primary" type="submit">
-                        <Icon name="reports"></Icon>
-                        <span>Get Result</span>
-                      </Button>
-                    </li>
-                  </ul>
-                  </form>
-                </div>
-              </div>
-            </BlockHeadContent>
-          </div>
-        </BlockHead>
-
-        <Block>
-          <Row className="g-gs">
-            <Col lg="7" xxl="6">
-              <Card className="card-bordered h-100">
-                <TrafficChannel />
-              </Card>
-            </Col>
-          </Row>
-        </Block>
+        <div>
+        <iframe
+        width="100%"
+        height="700"
+        src="https://ap-south-1.quicksight.aws.amazon.com/sn/embed/share/accounts/757776451407/dashboards/a647f449-e6c2-4fcc-b7cb-ad6f2e968665?directory_alias=airport-visibility-prediction">
+    </iframe>
+        </div>
       </Content>
     </React.Fragment>
   );
