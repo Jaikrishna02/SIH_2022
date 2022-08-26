@@ -951,9 +951,9 @@ const InvestOverview = () => {
                       }}
                       className="project-title"
                     >
-                      <UserAvatar className="sq" theme="primary" text={findUpper("Dashlite Dev")} />
+                      <UserAvatar className="sq" theme="primary" text={findUpper("dots Dev")} />
                       <div className="project-info">
-                        <h6 className="title">Dashlite Development</h6>
+                        <h6 className="title">dots Development</h6>
                         <span className="sub-text">Softnio</span>
                       </div>
                     </a>
@@ -992,7 +992,7 @@ const InvestOverview = () => {
                     </UncontrolledDropdown>
                   </div>
                   <div className="project-details">
-                    Design and develop the DashLite template for Envato Marketplace.
+                    Design and develop the dots template for Envato Marketplace.
                   </div>
                   <div className="project-progress">
                     <div className="project-progress-details">
@@ -1035,9 +1035,9 @@ const InvestOverview = () => {
       }}
       className="project-title"
     >
-      <UserAvatar className="sq" theme="primary" text={findUpper("Dashlite Dev")} />
+      <UserAvatar className="sq" theme="primary" text={findUpper("dots Dev")} />
       <div className="project-info">
-        <h6 className="title">Dashlite Development</h6>
+        <h6 className="title">dots Development</h6>
         <span className="sub-text">Softnio</span>
       </div>
     </a>
@@ -1076,7 +1076,7 @@ const InvestOverview = () => {
     </UncontrolledDropdown>
   </div>
   <div className="project-details">
-    Design and develop the DashLite template for Envato Marketplace.
+    Design and develop the dots template for Envato Marketplace.
   </div>
   <div className="project-progress">
     <div className="project-progress-details">
