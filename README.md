@@ -1,116 +1,147 @@
-**Documentation for React Dashlite application**
+# Consensus of hourly visibility forecast for airports using NWP model and observations
 
-**React Quick Start:**
 
-1.  Make sure Node and npm package manager is installed, please check
-    the version by the command **_node -v_**
+<!-- ![Current Version](https://img.shields.io/badge/version-v0.1-blue)
+![GitHub contributors](https://img.shields.io/github/contributors/madhur-taneja/README-Template)
+![GitHub stars](https://img.shields.io/github/stars/madhur-taneja/README-Template?style=social)
+![GitHub forks](https://img.shields.io/github/forks/madhur-taneja/README-Template?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/madhurtaneja2?style=social) -->
 
-2.  Install Dependencies
+Development of visibility forecast with elastic lead times using NWP model from past observation for the next 12/24 hours using DeepAR inside sagemaker studio and visualizing using AWS Quicksite with API service for clients for selected airports in the country.
 
-    a. **_npm install or yarn install_**
+Open and view the Project using the `.zip` file provided or at my [GitHub Repository]
 
-3.  Start the application / Run the dev-server:
+The project is also hosted [here](https://ap-south-1.quicksight.aws.amazon.com/sn/accounts/757776451407/dashboards/a647f449-e6c2-4fcc-b7cb-ad6f2e968665?directory_alias=airport-visibility-prediction )
 
-    a. **_npm start or yarn start_**
+## Table of Contents
+- [Getting Started](#getting-started)
+	- [Dataset](#tools-required)
+	- [Installation](#installation)
+- [Development](#development)
+    - [Part 1: Heading](#part-1-heading)
+	  - [Step 1: Subheading](#step-1-subheading)
+	  - [Step 2: Subheading](#step-2-subheading)
+	- [Part 2: Heading](#part-2-heading)
+- [Running the App](#running-the-app)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-    b. \*Open your browser at **localhost://3000\***
+## Getting Started
+This project aims to forecast the Visibility in the airports (or any parameter) against parameters like wind speed,wind direction,Humidity,Temperature,Dew point temperature.
+We have used Amazon Sagemaker as the environment for the project which has paved a way to make  our cloud based.
 
-**Detailed Installation Process:**
 
-Installing Node:
+Input:
+1. Model simulated Temperature, Wind Speed, Wind Direction, Humidity
+2. Observed visibility data (Met report) from selected Airport 
 
-1.  Download latest version of node.js
-    from [**nodejs.org.**](https://nodejs.org/)
+Output:
+1. Hourly visibility product for 12/24 hours(or for any lead time)
+2. Format: Visibility in meters 
+3. Platform: This project is platform independent.
 
-2.  Install and Setup Node.js using downloaded file in the development
-    environment
 
-3.  To check your node version, run **node -v **in a terminal/console
-    window.
+### Tools Required
 
-Installing Npm Package Manager:
+All tools required go here. You would require the following tools to develop and run the project:
 
-1.  React CLI, and React apps depend on features and functionality
-    provided by libraries that are available as npm packages. To
-    download and install npm packages, you must have
-    an [**npm **](https://www.npmjs.com/)package manager.
+* A text editor or an IDE (like IntelliJ)
+* Mention the other tools required for the project 
 
-2.  This Quick Start uses the npm client command line interface, which
-    is installed with Node.js by default. To check that you have the npm
-    client installed, run **npm -v ** in a terminal/console window.
+### Installation
 
-3.  For better understanding React we suggest you to once go through
-    official documentation of React
-    from [**ReactJS.org**](https://reactjs.org/docs/getting-started.html)
+All installation steps go here.
 
-Installing the React CLI:
+* Installing a particular tool
+  * Steps to complete it
+  
+* Installing another tool
 
-1.  It is recommended to install the React CLI globally
+## Development
 
-2.  To Install just run the command **_npm install create-react-app_**
+This section is completely optional. For big projects, the developement strategies are not discussed. But for small projects, you can give some insight to people. It has 2 benefits in my opinion:
 
-Running React-Dashlite:
+1. It's a way to give back to the community. People get to learn from you and appreciate your work
+2. You can refer the README in future as a quick refresher before an interview or for an old project to check if it can help you in your currect work
 
-1.  Download and extract Dashlite themes from themeforest.net
+### Part 1: Heading
 
-2.  Extract it and then go in to the extracted folder.
+#### Step 1: Subheading
 
-3.  Once in the folder, open the command prompt/git bash/Terminal
-    application (Mac) and type in **_cd theme_**
+* Mention the steps here
+  * You can also have nested steps to break a step into small tasks
+  
+#### Step 2: Subheading
 
-4.  Import all dependency by installing npm command. Type in **_npm
-    install_**
+* Mention the steps here.
+  * You can also have nested steps to break a step into small tasks
 
-5.  After all the packages and dependencies have been installed
-    successfully, run the application by typing in **_npm start_**
+For details now how everything has been implemented, refer the source code
 
-6.  Once you serve your application by default it will take their
-    default port so you can open port
-    using [**localhost://3000**](<javascript:void(0)>)
+### Part 2: Heading
 
-**Build Application**
+* Mention the steps here
 
-1.  Build you application for host on server just by typing _npm run
-    build_ in the terminal
+## Running the App
 
-2.  It will create a build file in the root directory. The application
-    is ready to go into the server of your choice, simply the upload the
-    zipped build file to the server. However, if the server is an apache
-    server create a .htaccess file in the build folder of the
-    application and paste the following code in it.
+Steps and commands for running the app are to be included here
 
-> _Options -MultiViews_
->
-> _RewriteEngine On_
->
-> _RewriteCond %{REQUEST_FILENAME} !-f_
->
-> _RewriteRule \^ index.html \[QSA,L\]_
+* Example steps:
+  ```
+    Example command
+  ```
 
-Copy the contents of the build file into the apache server, make sure
-the .htaccess file is included in the server.
+## Deployment
 
-**Create New Directory / Page:**
+This section is completely optional. Add additional notes about how to deploy this on a live system
 
-1.  To add a new directory or display contents on the side-panel. Add
-    details in the object in the file **_src/layout/menu/MenuData.js_**.
+## Contributing
 
-    - Single Page: Add a JavaScript object with the properties of
-      icon, text and link
+Mention what you expect from the people who want to contribute
 
-    - Directory: Add a JavaScript object with properties of icon,
-      text, link and submenu array where add all the sub-directory
-      properties as an object.
+We'd love to have your helping hand on `Project Title`! See [CONTRIBUTING.md] for more information on what we're looking for and how to get started.
 
-2.  Once you have added a new nav as a directory or a page. Create the
-    required page components in the pages folder. Make sure to export
-    it, to make it available to all other places of the project.
+## Versioning
 
-3.  Include it in the route file in the directory **_routes/index.js_**.
-    Make sure to import the created component in Step 2, through
-    react-lazy process. And place the component in a route inside the
-    Switch component such as **_\<Route exact path="/your_link"
-    component={Your_Component}/\>._** Make sure the link provided here
-    is the same as in step one.
+If your project has multiple versions, include information about it here. 
 
-4.  Restart the application and visit the created route.
+For the available versions, see the [tags on this repository][tags]
+
+## Authors
+
+#### Madhur Taneja
+* [GitHub]
+* [LinkedIn]
+
+You can also see the complete [list of contributors][contributors] who participated in this project.
+
+## License
+
+`Project Title` is open source software [licensed as MIT][license].
+
+## Acknowledgments
+
+This section can also be called as `Resources` or `References`
+
+* Code Honor if someone's work was referred to
+* Tutorials followed
+* Articles that helped
+* Inspiration
+* etc
+
+[//]: # (HyperLinks)
+
+[GitHub Repository]: https://github.com/madhur-taneja/README-Template
+[GitHub Pages]: https://madhur-taneja.github.io/README-Template
+[CONTRIBUTING.md]: https://github.com/madhur-taneja/README-template/blob/master/CONTRIBUTING.md
+[tags]: https://github.com/madhur-taneja/README-template/tags
+
+[GitHub]: https://github.com/madhur-taneja
+[LinkedIn]: https://www.linkedin.com/in/madhur-taneja/
+
+[contributors]: https://github.com/madhur-taneja/README-template/contributors
+[license]: https://github.com/madhur-taneja/README-template/blob/master/LICENSE.md
