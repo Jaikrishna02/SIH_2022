@@ -433,7 +433,7 @@ export const chatData = [
   },
   {
     id: 14,
-    name: "Dashlite Customers",
+    name: "Airline Customers",
     group: true,
     unread: false,
     archive: false,
@@ -561,7 +561,7 @@ export const chatData = [
   },
   {
     id: 17,
-    name: "dashlite-project",
+    name: "fog-project",
     group: true,
     chatTheme: "purple",
     theme: "pink",

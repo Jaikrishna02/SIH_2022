@@ -49,7 +49,7 @@ const AnalyticsHomePage = () => {
           <div className="nk-block-between">
             <BlockHeadContent>
               <BlockTitle page tag="h2">
-                Website Analytics
+                Airport Visibility Analytics
               </BlockTitle>
             </BlockHeadContent>
             <BlockHeadContent>
