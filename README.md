@@ -52,35 +52,36 @@ The project is also hosted [here](https://ap-south-1.quicksight.aws.amazon.com/s
 
 ## Architecture 
 
-!(/src/images/arch,png?raw=true)
+!(/src/images/arch.png?raw=true)
 
 ## Modules
 
 ### 1. Models 
 
-#### 1.A. AR
+#### A.) Autoregressive model (AR)
 This project used AR model, which is Autoregressive model, is Autoregressive (AR) models are a subset of time series models, which can be used to predict future values based on previous observations. 
 AR models use regression techniques and rely on autocorrelation in order to make accurate predictions.
 Autoregressive model works best with data with short lead times
 
 The performance of progressive predictions of timeseries predictions has been compared against vaerious models like cnnn, rnn ,lstm etc and has shown better accuracy.
-#### 1.B. Sagemaker 
+#### B.) Sagemaker 
 It provides an integrated Jupyter authoring notebook instance for easy access to your data sources for exploration and analysis.It also provides common machine learning algorithms that are optimized to run efficiently against extremely large data in a distributed environment. 
-#### 1.C. SageMaker Studio
+#### C.) SageMaker Studio
 An integrated machine learning environment where you can build, train, deploy, and analyze your models all in the same application.
 
-### API
+### 2. API
 
-### User Interface
+### 3. User Interface
 
-### Installation
+<!-- ### Installation
 
 All installation steps go here.
 
 * Installing a particular tool
   * Steps to complete it
   
-* Installing another tool
+* Installing another tool -->
+
 
 ## Development
 
